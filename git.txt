@@ -1,7 +1,0 @@
-git status
-
-git add .
-
-git commit -m "add your message"
-
-git push origin master

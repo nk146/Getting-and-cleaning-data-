@@ -1,6 +1,5 @@
 ---
 title: "CodeBook"
-output: html_document
 ---
 
 ## Introduction
@@ -96,7 +95,7 @@ fBodyBodyGyroJerkMagStd
 fBodyBodyGyroJerkMagMeanFreq  
 
 
-####The following data transformations were conducted to form a tidy dataset(tidy_data.csv):
-Added a new feature activityName - factor variable for activities with the following levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.  
-Tidy dataset was built as average of features activityName and subject.
+####The following data transformations were conducted to form a tidy dataset(tidy_data.csv):  
+1. Added a new feature activityName - factor variable for activities with the following levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.     
+2. Tidy dataset was built as average of features activityName and subject.
 
